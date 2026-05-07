@@ -83,7 +83,7 @@ JOIN Department as d
 SELECT * from ViewStudentBasic;
 
 -- Câu 2: Tạo một Regular Index tên là idxFullName cho cột FullName của bảng Student.
-CREATE INDEX ViewStudentBasic on Student(FullName);
+CREATE INDEX idxFullName on Student(FullName);
 
 /*
 Câu 3: Viết Stored Procedure GetStudentsIT (không có tham số).
